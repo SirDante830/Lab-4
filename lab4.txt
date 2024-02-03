@@ -1,0 +1,48 @@
+Dictionary for the classes
+defined variables for the strings ints and bools
+string name;
+string class;
+int level;
+int con;
+int rollHealth;
+int averageHealth;
+bool hillDwarf;
+bool tough;
+bool averaged;
+string grammar1;
+string grammar2;
+string grammarAvg;
+int conScore[] ...;
+
+if(hillDwarf is true)
+grammar1 = "is"
+else
+grammar1 = "is not"
+
+if(tough == true)
+grammar2 = "has"
+else
+grammar2 = "does not have"
+
+if(average == true)
+grammarAvg = "";
+else
+grammarAvg = "do not";
+roll(d6)
+
+dictionary<string, int> classesDice =
+new Dictionary<string, int>();
+classesDice.Add("....", 8);
+
+
+function for averaging hp
+
+private int roll(int hp)
+math operator for randmoizing hp variable
+
+
+
+Debug.Log("My character "+ name + " is a level " + level + " " + class + " with a con score of " + con + " and " + grammar +
+ " a Hill Dwarf and " + grammar2 + " the tough feat.  I " + gammarAvg + " want the HP averaged.  I have " + health + " health."
+
+
