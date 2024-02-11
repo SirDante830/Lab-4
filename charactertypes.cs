@@ -42,19 +42,20 @@ using UnityEngine;
       modifier = (CONscore-11) /2;
       DiceValue = classAssign();
       Average = DiceValue/2;
+        Debug.Log($"{Average}");
       if(IsDwarf == true && IsTough == false)
         {
             modifier += 1;
             DwarfStatus = "is";
             ToughStatus = "doesn't have";
         }
-      if(IsDwarf == false && IsTough == true)
+      if(IsTough == false && IsDwarf == true)
         {
             modifier += 2;
             DwarfStatus = "is not";
             ToughStatus = "has";
         }
-       if(IsDwarf == true && IsTough == true)
+       if(IsTough == true && IsDwarf == true)
         {
             modifier += 3;
             DwarfStatus = "is";
@@ -86,7 +87,7 @@ using UnityEngine;
     }
     public int classAssign()
     {
-      
+        //Random rand = new Random()
         switch (Classtype)
         {
             case "Wizard":
